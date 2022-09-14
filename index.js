@@ -1,13 +1,13 @@
 
 const mineflayer = require('mineflayer')
 const bottest = mineflayer.createBot({
-    host: '192.168.1.10',
+    host: '###.###.#.##',
     port: 25565,
     username: 'Felipe',
 })
 
 bottest.on('login', () => {
-    ghzin.chat('Oi')
+    bottest.chat('Hi, Im a test bot')
 })
 
 bottest.on('chat', (user, message) => {
